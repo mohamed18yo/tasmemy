@@ -105,12 +105,14 @@ a {
 }
 .whatsapp {
   padding: 1rem;
-  color: #fff;
-  background-color: rgb(196, 95, 95);
+  color: #000;
+  background-color: #fffc00;
+
   border: 1px solid green;
   /* width: 200px; */
   /* height: 20px; */
-  font-size: 18px;
+  font-size: 24px;
+  font: bold;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -125,7 +127,7 @@ a {
   font: bold;
 }
 .form {
-  width: 100%;
+  width: 95%;
 }
 
 .row-form {
