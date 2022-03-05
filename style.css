@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Tajawal;
+}
+.contaner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #dbdbdb;
+}
+.header {
+  width: 100%;
+  /* height: 200px; */
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* gap: 20rem; */
+  background-color: #f8faf9;
+}
+.vision {
+  height: 100px;
+  width: 150px;
+  /* z-index: 1; */
+  /* width: 150px; */
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+}
+
+.dosary {
+  height: 110px;
+  /* width: 200px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* color: #fff; */
+  border-radius: 6px;
+  border: 1px solid;
+  padding: 0.5rem;
+  /* background-color: rgb(151, 68, 68); */
+}
+
+.hero-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fafcfc;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/heroImg.jpg);
+  background-position: center;
+  color: #fff;
+  height: 350px;
+  width: 100%;
+  padding: .5rem;
+}
+
+.center-section {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(196, 95, 95);
+  display: flex;
+  flex-direction: row;
+  color: #f8faf9;
+  margin-top: .3rem;
+  justify-content: space-around;
+  padding-right: .5rem;
+}
+.text {
+  margin: auto;
+  width: 90%;
+  color: rgb(196, 95, 95);
+}
+a {
+  text-decoration: none;
+}
+.whatsapp {
+  padding: 1rem;
+  color: #fff;
+  background-color: rgb(196, 95, 95);
+  border: 1px solid green;
+  /* width: 200px; */
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  /* background-color: #fff; */
+}
+
+.spn{
+  color:green;
+  font-size: 20px;
+  font: bold;
+}
+.form {
+  width: 100%;
+}
+
+.row-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-size: 16px;
+}
+
+.row-form label {
+  font-size: 26px;
+  color: #000;
+}
+
+.row-form input {
+  border: none;
+  width: 75%;
+  outline: 0;
+}
+.sample{
+  width: 100%;
+  
+}
+.send-btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  font-size: 22px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
